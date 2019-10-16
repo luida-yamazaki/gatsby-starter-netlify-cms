@@ -15,9 +15,9 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
+  <div className="hoge">
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image margin-top-0 hogehoge"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
             boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
             backgroundColor: 'rgb(255, 68, 0)',
-            color: 'red',
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
             boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
             backgroundColor: 'rgb(255, 68, 0)',
-            color: 'red',
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
