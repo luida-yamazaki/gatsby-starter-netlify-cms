@@ -1,3 +1,162 @@
+@charset "utf-8";
+
+
+/* ====================================================================================
+ + base setting +
+/* ==================================================================================== */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+a { color:#005aff;outline:none; text-decoration:none;}
+a:hover { text-decoration:none;}
+a.underline:hover { text-decoration:underline;}
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: nomal; }
+hr { display: block; height: 1px; border: 0; margin: 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ffd56b; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; overflow: auto; /* Internet Explorer 11- */}
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+ul, ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; display: inline;line-height: 1px;}
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; margin: 0; padding: 0;}
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input {	-webkit-border-radius: 0 /* iOS 8+ */}
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+input[type="number"] {	width: auto;/* Firefox 36+ */}
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+input:valid, textarea:valid { background-color: #cfc; }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+textarea {	overflow: auto; resize: vertical;}
+progress {	display: inline-block; /* Internet Explorer 11-, Windows Phone 8.1+ */}
+details {	display: block; /* Edge 12+, Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+ */}
+summary {	display: block; /* Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+ */}
+[hidden] {	display: none; /* Internet Explorer 10- */}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+:root {
+	background-color: #ffffff;
+	box-sizing: border-box;
+	color: #000000;
+	cursor: default;
+	text-rendering: optimizeLegibility;
+}
+html{
+	font:12px/1.5 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Arial, sans-serif;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+}
+body{
+	margin: 0;
+	background-color: #ffffff;
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-size: 100%;
+	font-weight:nomal;
+	margin: 0;
+}
+
+audio,
+canvas,
+iframe,
+svg,
+video {
+	vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+	background-color: transparent;
+	color: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+select::-ms-value {
+	color: currentColor;
+}
+
+::-moz-selection {
+	background-color: #b3d4fc;
+	color: #4c2b03;
+	text-shadow: none;
+}
+::selection {
+	background-color: #b3d4fc;
+	color: #4c2b03;
+	text-shadow: none;
+}
+
+[aria-busy="true"] {
+	cursor: progress;
+}
+
+[aria-controls] {
+	cursor: pointer;
+}
+
+[aria-disabled] {
+	cursor: default;
+}
+
+[hidden][aria-hidden="false"] {
+	clip: rect(0 0 0 0);
+	display: inherit;
+	position: absolute;
+}
+
+[hidden][aria-hidden="false"]:focus {
+	clip: auto;
+}
+
+.clearfix{ clear:both; }
+.clearfix:after{ clear:both;content:" "; display:block; height:0; font-size:0.1em; line-height: 0; visibility:hidden; overflow:hidden;}
+/*  - base setting ==================================================================== */
+
+
+
+
 .hoge{
 	.hogehoge{
 		background-color: #000;
