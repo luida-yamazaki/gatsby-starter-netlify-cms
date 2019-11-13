@@ -39,6 +39,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        image={frontmatter.image}
         content={post.html}
       />
     </Layout>
